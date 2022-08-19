@@ -2,3 +2,6 @@
 *.Rproj
 *.Rhistory
 *.DS_Store
+^\.Rproj\.user$
+*.Rproj.user
+.Rproj/user
