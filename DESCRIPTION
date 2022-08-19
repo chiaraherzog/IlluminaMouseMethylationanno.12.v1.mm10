@@ -1,0 +1,23 @@
+Package: IlluminaMouseMethylationanno.12.v1.mm10
+Title: Illumina Mouse Methylation Array Annotation (12.v1)
+Version: 0.0.0.1000
+Authors@R: 
+    person("Chiara", "Herzog", , "chiara.herzog@uibk.ac.at", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1572-498X"))
+Description: This package provides Illumina Mouse Methylation Array Annotation (12.v1, Genome Build mm10) compatible with minfi.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports:
+    minfi
+Remotes:
+    github::chiaraherzog/IlluminaMouseMethylationmanifest
+Suggests:
+    illuminaio,
+    dplyr,
+    tidyverse,
+    here

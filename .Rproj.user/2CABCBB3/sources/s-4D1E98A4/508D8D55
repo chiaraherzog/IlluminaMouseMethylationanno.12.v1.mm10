@@ -1,0 +1,26 @@
+{
+    "id": "508D8D55",
+    "path": "~/Dropbox/eutops/analysis/tool-dev/1-mouse-anno/IlluminaMouseMethylationanno.12.v1.mm10/inst/scripts/createAnno.R",
+    "project_path": "inst/scripts/createAnno.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1660913083349.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "2,139",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1660913097,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1660913097560,
+    "read_only": false,
+    "read_only_alternatives": []
+}
