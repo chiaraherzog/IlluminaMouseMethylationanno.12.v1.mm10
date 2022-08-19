@@ -14,8 +14,6 @@ Depends:
 LazyData: true
 Imports:
     minfi
-Remotes:
-    github::chiaraherzog/IlluminaMouseMethylationmanifest
 Suggests:
     illuminaio,
     dplyr,
