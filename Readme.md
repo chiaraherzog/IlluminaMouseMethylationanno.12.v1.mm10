@@ -2,7 +2,7 @@
 # IlluminaMouseMethylationanno.12.v1.mm10
 
 This R package was create for analysis of Illumina Mouse Methylation Array datasets using minfi. The annotation was downloaded from Illumina (accessed 12 Aug 2022) and follows the development of IlluminaMethylationEPIC packages. 
-It is to be used in combination with the IlluminaMouseMethylationmanifest package.
+It is to be used in combination with the [IlluminaMouseMethylationmanifest](https://github.com/chiaraherzog/IlluminaMouseMethylationmanifest) package.
 
 As several CpGs have multiple probes, Illumina IDs concatenated from cgID and additinal information are used rather than cg numbers on their own.
 
