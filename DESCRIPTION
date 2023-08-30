@@ -1,6 +1,6 @@
 Package: IlluminaMouseMethylationanno.12.v1.mm10
 Title: Illumina Mouse Methylation Array Annotation (12.v1)
-Version: 0.0.0.1000
+Version: 0.0.1
 Authors@R: 
     person("Chiara", "Herzog", , "chiara.herzog@uibk.ac.at", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1572-498X"))

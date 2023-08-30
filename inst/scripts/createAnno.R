@@ -38,8 +38,9 @@ Islands <- anno %>%
   summarise(Island = paste0(Isl2)) %>%
   filter(Island != "") %>%
   group_by(Name) %>%
-  mutate(Relation_to_Island = paste0(unique(Relation_to_Island), collapse = ";"),
+  mutate(Relation_to_Island = unique(Relation_to_Island)[1], # keep first anno
          Island = paste0(unique(Island), collapse = ";")) %>%
+  dplyr::mutate(Relation_to_Island = gsub("CpG_Island", "Island", Relation_to_Island)) |> 
   distinct()
 
 # add open seas
