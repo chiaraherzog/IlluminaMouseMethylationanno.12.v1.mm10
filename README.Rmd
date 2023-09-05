@@ -43,3 +43,16 @@ library(IlluminaMouseMethylationmanifest)
 RGset@annotation <-  c(array = "IlluminaMouseMethylation", annotation = "12.v1.mm10")
 ```
 
+# Helper functions
+
+The package includes a helper function for DMRcate (cpg.annotate), that can be used as follows (example) on a beta matrix:
+
+```
+library(DMRcate)
+myannotation <- IlluminaMouseMethylationanno.12.v1.mm10::cpg.annotate("array", beta,
+                             arraytype = "mouse",
+                             analysis.type="diffVar", design=design, coef=2)
+dmr <- DMRcate::dmrcate(myannotation)
+```
+
+where design represents a design model matrix.
