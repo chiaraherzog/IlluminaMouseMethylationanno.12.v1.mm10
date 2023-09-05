@@ -51,7 +51,7 @@ The package includes a helper function for DMRcate (cpg.annotate), that can be u
 library(DMRcate)
 myannotation <- IlluminaMouseMethylationanno.12.v1.mm10::cpg.annotate("array", beta,
                              arraytype = "mouse",
-                             analysis.type="diffVar", design=design, coef=2)
+                             analysis.type="differential", design=design, coef=2)
 dmr <- DMRcate::dmrcate(myannotation)
 ```
 
